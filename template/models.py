@@ -6,7 +6,7 @@ from sqlalchemy.orm import synonym
 bcrypt = Bcrypt()
 
 class User(Base):
-    __tablename__ = 'ndi_user'
+    __tablename__ = 'app_user'
     id = Column(Integer, primary_key=True)
     name = Column(String, nullable=False, unique=True)
     email = Column(String, nullable=False, unique=True)
