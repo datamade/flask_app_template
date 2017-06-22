@@ -20,6 +20,9 @@ sudo: false
 addons:
   postgresql: '9.6'
 
+before_script:
+- cp template/app_config.py.example template/app_config.py
+
 script:
 - pytest -v --cov api tests
 
