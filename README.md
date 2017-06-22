@@ -2,6 +2,8 @@
 
 ![Badgers!](https://api.travis-ci.org/datamade/flask_app_template.svg?branch=master)
 
+[![Coverage Status](https://coveralls.io/repos/github/datamade/flask_app_template/badge.svg?branch=master)](https://coveralls.io/github/datamade/flask_app_template?branch=master)
+
 To customize:
 
 1. Rename ``template`` folder to something more meaningful
