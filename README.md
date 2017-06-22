@@ -1,5 +1,7 @@
 # DataMade flask app template
 
+![Badgers!](https://api.travis-ci.org/datamade/flask_app_template.svg?branch=master)
+
 To customize:
 
 1. Rename ``template`` folder to something more meaningful
