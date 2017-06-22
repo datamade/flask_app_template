@@ -1,4 +1,4 @@
-# DataMade flask app template
+# Flask app template
 
 ![Badgers!](https://api.travis-ci.org/datamade/flask_app_template.svg?branch=master)
 
