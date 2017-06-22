@@ -3,3 +3,8 @@ flask_sqlalchemy==2.2
 psycopg2==2.7.1
 pytz==2017.2
 flask_wtf==0.14.2
+
+pytest==3.0.5
+pytest-postgresql==1.1.1
+pytest-cov
+pytest-flask==0.10.0

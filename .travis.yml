@@ -1,0 +1,25 @@
+branches:
+  only:
+  - master
+
+language: python
+
+python:
+- '3.4'
+
+install:
+- pip install --upgrade -r requirements.txt
+
+cache:
+  directories:
+  - "$HOME/.cache/pip"
+
+dist: trusty
+sudo: false
+
+addons:
+  postgresql: '9.6'
+
+script:
+- pytest -v --cov api tests
+
