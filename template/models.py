@@ -9,5 +9,5 @@ class PersonModel(db.Model):
     email = sa.Column(sa.String, nullable=False, unique=True)
     
     def __repr__(self): # pragma: no cover
-        return '<TemplateModel %r>' % self.name
+        return '<PersonModel %r>' % self.name
 

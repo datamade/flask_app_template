@@ -2,8 +2,8 @@ from flask import Flask
 
 from flask_sqlalchemy import SQLAlchemy
 
-from template.views import views
-from template.database import db
+from .views import views
+from .database import db
 
 def create_app():
     app = Flask(__name__)
