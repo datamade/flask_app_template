@@ -26,3 +26,5 @@ before_script:
 script:
 - pytest -v --cov template tests
 
+after_success:
+- coveralls
