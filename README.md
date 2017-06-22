@@ -1,4 +1,4 @@
-# Flask app template
+# DataMade flask app template
 
 To customize:
 
